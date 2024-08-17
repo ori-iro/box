@@ -1,3 +1,41 @@
 .title {
     color: #02ccba;
   }
+.button a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 160px;
+    padding: 10px 25px;
+    font-family: "Noto Sans Japanese";
+    line-height: 1.8;
+    text-decoration: none;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button a:before {
+    content: "\f879";
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 12px;
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+.button a:hover {
+    background: #313131;
+    color: #FFF;
+}
+.button a:hover:before {
+    color: #fff;
+}
+body{
+    vertical-align:middle; 
+    padding: 50px 0;
+    text-align: center;
+}
